@@ -1,0 +1,156 @@
+p {
+    margin: 0;
+}
+
+body {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: ghostwhite;
+    border: 1px solid black;
+}
+
+select {
+
+    cursor: pointer;
+    background-color: ghostwhite;
+    border: 1px solid black;
+}
+
+button {
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 0;
+    background-color: ghostwhite;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    width: 380px;
+    height: 200px;
+    border-radius: 16px;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.subcard{
+    width: 380px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 1000px;
+    top: 45px;
+    background-color: rgb(197, 197, 197);
+}
+.dateRes{
+    position: absolute;
+    left: 145px;
+    bottom: 75px;
+}
+.cvv{
+    position: absolute;
+    left: 315px;
+    bottom: 115px; 
+    background-color: grey;
+    font-size: 27px;
+    width: 60px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px
+    ;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.flex_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+
+.number {
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 110px;
+    left: 55px;
+    font-size: 27px;
+    letter-spacing: 1px;
+    
+}
+
+.till {
+    margin-bottom: 5px;
+}
+
+.bank {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 10px;
+}
+
+.system {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.card_info {
+    margin-top: auto;
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+}
+
+.flex_res {
+    display: flex;
+    margin: 0 100px;
+}
+
+.res_item {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.res_img {
+    max-height: 100px;
+    max-width: 100px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" id="cardForm" class="form">
+            <select name="" id="bank">
+                <option value="СБЕР">СБЕР</option>
+                <option value="ТИНЬКОФФ">Тинькофф</option>
+                <option value="АЛЬФАБАНК">Альфабанк</option>
+            </select>
+            <select name="" id="type">
+                <option value="VISA">VISA</option>
+                <option value="MASTERCARD">master card</option>
+            </select>
+            <input type="text" placeholder="Номер карты" id="number">
+            <input type="text" placeholder="Срок окончания" id="date">
+            <input type="text" placeholder="Имя владельца" id="name">
+            <input type="text" placeholder="cvv / cvc" id="cvv">
+        </form>
+        <div class="card">
+            <img src="" alt="bank" class="bank">
+            <div class="card_info">
+                <p class="number">0000 &nbsp;&nbsp;0000 &nbsp;&nbsp;0000 &nbsp;&nbsp;0000</p>
+                <div class="flex">
+                    <p class="till"><span class="dateRes">00/00</span></p>
+                    <!-- <p class="cvv">000</p> -->
+                </div>
+                <div class="flex_name">
+                    <p class="name">name surname</p>
+                    <img src="" alt="visa" class="system">
+                </div>
+            </div>
+        </div>
+        <div class="subcard">
+            <p class="cvv">000</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
